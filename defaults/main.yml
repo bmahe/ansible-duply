@@ -1,5 +1,4 @@
 ---
-duply_version: "1.5.10-1"
 duply_profile: "test"
 duply_gpg_key: "disabled"
 duply_gpg_pw: ""

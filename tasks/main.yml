@@ -1,9 +1,11 @@
 ---
 - name: Install Duply
-  apt: pkg={{ item }} state=present
+  package:
+    name={{ item }}
+    state=latest
   with_items:
     - python-boto
-    - duply={{ duply_version }}
+    - duply
 
 - name: Create Duply configuration directory structure
   file: path=/etc/duply/{{ duply_profile }}

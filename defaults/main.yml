@@ -9,4 +9,5 @@ duply_source: "/var/www/html"
 duply_max_age: "1M"
 duply_max_full_age: "2W"
 duply_max_full_backups: "1"
+duply_volsize: "50"
 duply_excludes: []
